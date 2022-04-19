@@ -13,7 +13,7 @@ const Banner = () => {
                 <img
                     className="d-block w-100"
                     src={"https://i.ibb.co/p0DrBz2/kids.jpg"}
-                    alt="First slide"
+                    alt=""
                 />
                 <Carousel.Caption>
                     <h3>First slide label</h3>
@@ -24,7 +24,7 @@ const Banner = () => {
                 <img
                     className="d-block w-100"
                     src={"https://i.ibb.co/p0DrBz2/kids.jpg"}
-                    alt="Second slide"
+                    alt=""
                 />
 
                 <Carousel.Caption>
@@ -36,7 +36,7 @@ const Banner = () => {
                 <img
                     className="d-block w-100"
                     src={"https://i.ibb.co/p0DrBz2/kids.jpg"}
-                    alt="Third slide"
+                    alt=""
                 />
 
                 <Carousel.Caption>
