@@ -12,7 +12,7 @@ const Banner = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={"https://i.ibb.co/p0DrBz2/kids.jpg"}
+                    src={"https://i.ibb.co/wc3QtxB/img-1.jpg"}
                     alt=""
                 />
                 <Carousel.Caption>
@@ -23,7 +23,7 @@ const Banner = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={"https://i.ibb.co/p0DrBz2/kids.jpg"}
+                    src={"https://i.ibb.co/wc3QtxB/img-1.jpg"}
                     alt=""
                 />
 
@@ -35,7 +35,7 @@ const Banner = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={"https://i.ibb.co/p0DrBz2/kids.jpg"}
+                    src={"https://i.ibb.co/wc3QtxB/img-1.jpg"}
                     alt=""
                 />
 
