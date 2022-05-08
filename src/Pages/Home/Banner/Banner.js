@@ -16,8 +16,8 @@ const Banner = () => {
                     alt=""
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Best Online learning.</p>
+                    {/* <h3>First slide label</h3> */}
+                    <p>We care about quality.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -28,8 +28,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>We are the best.</p>
+                    {/* <h3>Second slide label</h3> */}
+                    <p>We care about quality.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -40,9 +40,9 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
+                    {/* <h3>Third slide label</h3> */}
                     <p>
-                        Best Service.
+                        We care about quality.
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>

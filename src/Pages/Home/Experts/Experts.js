@@ -26,37 +26,27 @@ const Experts = () => {
         <div>
             <p className="text-center, fw-bold, mx-auto, m-5">
                 Question Ans:
-                <p>1. Authentication is used to verify the identity of a registered user. Authentication is the process of verifying credentials: user ID (name, email address, phone number) and password. There are many types of authentication like passwords, pins, Two-factor authentication (2FA), and Multi-factor authentication (MFA).
+                <p>1. JavaScript is a programming language, which runs in web browsers. Whereas Node.js is an interpreter or running environment for JavaScript, which holds a lot of required libraries and all. JavaScript is basically one standard defining programming language; it can run any browser with a default browser running environment. It is a very strong language normally used for a web application on any verification or any specific business logic. We need to append to the screen without page refreshing. JavaScript also helps to use Ajax at any time, which helps us call any server-side script for given dynamic data based on the requirement. It also helps with generating dynamic HTML tables based on business requirements. JQuery is one of the popular libraries to make comfortable use of JavaScript by avoiding writing a lot of code.
 
-
-                    Authorization - granting a certain person or group of persons the right to perform certain actions. In a secure environment, after the user's identity has been successfully authenticated by the system. The authorization process determines whether an authenticated person has access to certain resources: information, files, database. But if documents are available for anyone then, authorization without identification and even more so authentication is very possible.
-
-                    Example: Google asks for a password, the user enters it, and the system agrees that the user seems to be really real since the password matched - this is authentication
-
-                    After that, the system will grant the user the right to read letters in his mailbox and stuff like that - this is an authorization.
+                    Node.js also holds a lot of relative libraries, which we normally use in javascript for general-purpose programming language. It is actually a kind of environment or interpreter that can represent JavaScript or run any javascript program. It mainly helps us execute some non-blocking operations like some operating system special information like certificate details or hardware details; we may use node js on the same, which help us do it, and JavaScript normal programming will not help us on the same. Normally all browsers have a JavaScript engine that helps us to run javascript in a web browser. Spider monkey (Firefox), JavaScript Core (Safari), and V8 (Google Chrome) are some popular javascript engines using verities browsers. But node js is using the V8 engine directly, with some libraries to do some I/O or networking operations. It actually helps us use JavaScript from outside of the browser, like creating, writing, or executing one shell script, some back-end services, or running on hardware. Let us understand  JavaScript vs
 
                     .</p>
 
                 <p>
-                    2 Firebase can help with user registration and authorization, session storage (authorized users), and media files that can be easily accessed.
+                    2 MongoDB and NodeJS are two different technologies. MongoDB is a database system that gives you a chance to efficiently store documents in a database and to perform operations like data updates, or searching documents by some criteria.
 
-                    Firebase is really very beginner-friendly and offers a lot of great features other than authentication
-
-                    Firestore: A scalable, real-time NoSQL database solution that any frontend can use
-                    Storage: We use it mainly for images.
-                    Notifications: A very easy-to-implement notification service.
-                    Hosting: affordable and convenient hosting of static sites. We hosted our React frontend application there.
-                    Functions: work in the cloud and can respond to any events at the data level. We used them mainly for sending notifications.
+                    NodeJS's responsibility is especially to execute your application..
 
                 </p>
                 <p>
                     3.
-                    irebase stores text data in JSON format and provide convenient methods for reading, updating, and retrieving the data.
+                    The five critical differences between SQL vs NoSQL are:
 
-                    we use  Firebase because the application does not require a backend, it only needs to implement a user interface. It has great features for free and it is very easy to use. it has flexibility and speed of deploying to a project. It is a powerful tool, in one evening we can add the functionality of any module by reading, saving data, and showing the customer a functional example.
-
-                    Alternative to firebase for authentication:
-                    Keycloak, Okta,Supabase,auth0,Ory,STYTCH, etc.
+                    SQL databases are relational, and NoSQL databases are non-relational.
+                    SQL databases use structured query language and have a predefined schema. NoSQL databases have dynamic schemas for unstructured data.
+                    SQL databases are vertically scalable, while NoSQL databases are horizontally scalable.
+                    SQL databases are table-based, while NoSQL databases are document, key-value, graph, or wide-column stores.
+                    SQL databases are better for multi-row transactions, while NoSQL is better for unstructured data like documents or JSON.
                 </p>
             </p>
 
