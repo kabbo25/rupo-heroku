@@ -1,6 +1,7 @@
 import React from 'react';
 import useServices from '../../hooks/useServices';
 
+
 const ManageServices = () => {
     const [services, setServices] = useServices();
 
@@ -24,7 +25,7 @@ const ManageServices = () => {
             <h2>Manage Your Items</h2>
             {
                 services.map(service => <div key={service._id}>
-                    <h5>{service.name} <button onClick={() => handleDelete(service._id)}>X</button></h5>
+                    <h5>{service.name} <button onClick={() => handleDelete(service._id)}>X</button> <button>Update</button> </h5>
 
                 </div>)
             }

@@ -12,6 +12,7 @@ import ServiceDetail from './Pages/ServiceDetail/ServiceDetail';
 import ManageServices from './Pages/ManageServices/ManageServices';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
+import UpdateUser from './Pages/UpdateUser/UpdateUser';
 import NotFound from './Pages/Shared/NotFound/NotFound';
 
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
+        <Route path="/update/:id" element={<UpdateUser></UpdateUser>}></Route>
         <Route path="/checkout" element={
           <RequireAuth>
             <Checkout></Checkout>
