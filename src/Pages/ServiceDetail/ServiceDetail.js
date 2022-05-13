@@ -29,7 +29,7 @@ const ServiceDetail = () => {
     const [service, setService] = useState({});
 
     useEffect(() => {
-        const url = `http://localhost:5000/product/${serviceId}`;
+        const url = `https://guarded-sands-71170.herokuapp.com/product/${serviceId}`;
         console.log(url);
         fetch(url)
             .then(res => res.json())

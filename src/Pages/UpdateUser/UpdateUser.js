@@ -5,7 +5,7 @@ const UpdateUser = () => {
     const { id } = useParams();
     const [user, setUser] = useState({});
     useEffect(() => {
-        const url = `http://localhost:5000/product/${id}`;
+        const url = `https://guarded-sands-71170.herokuapp.com/product/${id}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setUser(data));
@@ -19,7 +19,7 @@ const UpdateUser = () => {
         const updatedUser = { name, email };
 
         // send data to the server
-        const url = `http://localhost:5000/product/${id}`;
+        const url = `https://guarded-sands-71170.herokuapp.com/product/${id}`;
         fetch(url, {
             method: 'PUT',
             headers: {
